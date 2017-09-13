@@ -1,0 +1,29 @@
+<!-- views/urls_index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TinyApp</title>
+</head>
+<body>
+    <header>
+        <% include ../partials/_header %>
+    </header>
+
+
+
+		<p style = padding:20px>URL LIST</p>
+		<ul>
+			<% links.forEach(function(linkpair) { %>
+			<form method="POST" action= <%= "/urls/" + linkpair.short_form + "/delete"%> >
+				<li> link: <%= linkpair.link %> - Short From: <%= linkpair.short_form %>  <button>delete</button></li><br>
+				</form>
+
+				<% }); %>
+		</ul>
+
+		<a href="/urls/new">Shorten a New URL </a>
+    
+   
+</body>
+</html>

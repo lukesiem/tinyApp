@@ -1,0 +1,27 @@
+<!-- views/urls_show.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TinyApp show Url</title>
+</head>
+<body>
+
+
+    <header>
+        <% include ../partials/_header %>
+    </header>
+
+		<h3>Full and Shortened URL </h3>
+		<h5> change URL in box before clicking update</h5> <br>
+
+			<form method="POST" action= <%= "/urls/" + shortURL %> >
+			<p>Fulll URL: <input type="text" name= <%= shortURL %> placeholder= "<%= longUrl%>" style= "width:300px"> </p><button>update </button></p>
+			</form>
+			<p><%= "Shortened Url: " +shortURL %></p>
+
+<a href="/urls"> Back to URL List </a>
+
+</body>
+
+</html>

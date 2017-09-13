@@ -1,0 +1,30 @@
+<!-- views/partials/head.ejs -->
+<!DOCTYPE html>
+<html land="en">
+<!-- CSS (load bootstrap form CDN) -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<style>
+    body   
+
+
+</style>
+<head>
+<title> Tiny App </title>
+<meta charset="UTF-8">
+
+<div>
+<% if ( !username ) { %>
+<form method="POST" action= "/login" > <input type="text" name= "username" style= "float:right; width:100px;"> <button type ="submit" value ="submit"  style = "float: right;"> submit </button>
+</form>
+
+<%}else{ %>
+<label> Username: <%= username %></label>
+<form method ="POST" action="/logout" ><button style="float: right;">logout</button></form>
+
+
+
+ <% } %>
+ 
+</div>
+</head>
+</html>
