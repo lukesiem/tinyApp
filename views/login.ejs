@@ -1,0 +1,28 @@
+<!-- views/Register.ejs -->
+<!DOCTYPE html>
+<html land="en">
+<head>
+<!-- CSS (load bootstrap form CDN) -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<title> Tiny App </title>
+<meta charset="UTF-8">
+</head>
+
+	<body>
+	   <% include ../partials/_header %>
+	   
+		<strong> Welcome to Tiny App, Register Below</strong>
+
+</form>
+<br></br>
+<form method ="POST" action="/login" >
+<label for= "email"> Email: </label>
+<input type="email" name= "email" style= "width:300px;"> 
+<br> 
+<label for="password">Passowrd: </label>
+<input type="password" name= "password" style= "width:300px;"> <button> 
+<input type ="submit" value="submit">
+</form>
+
+</body>
+</html>
