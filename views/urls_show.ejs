@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
   <title>TinyApp show Url</title>
 </head>
 <body>
@@ -14,11 +14,11 @@
         <% include ../partials/_header %>
     </header>
 
-		<h3>Full and Shortened URL </h3>
-		<h5> change URL in box before clicking update</h5> <br>
+		<strong><p>Large and <font size="-2">Tiny</font> URLs </p></strong>
+		<p> <font size="-2">change URL in box before clicking update to alter URL </font></p> 
 
 			<form method="POST" action= <%= "/urls/" + shortURL %> >
-			<p>Fulll URL: <input type="text" name= <%= shortURL %> placeholder= "<%= longUrl%>" style= "width:300px"> </p><button>update </button></p>
+			<p>Full URL: <input type="text" name= <%= shortURL %> placeholder= "<%= longUrl%>" style= "width:300px"> </p><button type="submit">update </button></p>
 			</form>
 			<p><%= "Shortened Url: " +shortURL %></p>
 

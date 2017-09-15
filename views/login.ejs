@@ -2,25 +2,26 @@
 <!DOCTYPE html>
 <html land="en">
 <head>
-<!-- CSS (load bootstrap form CDN) -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<title> Tiny App </title>
-<meta charset="UTF-8">
+	<title> Tiny App </title>
+	<meta charset="UTF-8">
 </head>
 
 	<body>
-	   <% include ../partials/_header %>
+		<header>
+	   		<% include ../partials/_header %>
+	   	</header>
+	   	<br></br>
 	   
-		<strong> Welcome to Tiny App, Register Below</strong>
+		<strong> Welcome to Tiny App, Login Below to make <font size="-2">Tiny</font> URLs</strong>
 
-</form>
+
 <br></br>
 <form method ="POST" action="/login" >
-<label for= "email"> Email: </label>
+<label for= "email" style= "padding-right: 23px;"> Email: </label>
 <input type="email" name= "email" style= "width:300px;"> 
-<br> 
-<label for="password">Passowrd: </label>
-<input type="password" name= "password" style= "width:300px;"> <button> 
+<br>
+<label for="password">Password: </label>
+<input type="password" name= "password" style= "width:300px;">  
 <input type ="submit" value="submit">
 </form>
 

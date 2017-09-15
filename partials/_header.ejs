@@ -3,8 +3,8 @@
 <html land="en">
 
 <head>
-<!-- CSS (load bootstrap form CDN) -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+
 <meta charset="UTF-8">
 <title> Tiny App </title>
 </head>
@@ -12,7 +12,7 @@
 <body>
 
 <div>
-<% if ( !user_id ) { %>
+<% if ( !user ) { %>
 
 <a href="/login"> Login </a>
 <a href="/register"> Register </a>
@@ -20,7 +20,7 @@
 
 <%}else{ %>
 
-<label> Username: <%= user_id.id %></label>
+<label> Username: <%= user.id %></label>
 <form method ="POST" action="/logout" >
 <button style="float: right;">logout</button></form>
 
