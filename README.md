@@ -14,8 +14,8 @@ GET TinyAPP
 ## Final Product
 
 !["Logged in? Why not create some Tiny URLs"](https://github.com/lukesiem/tinyApp/blob/master/screenshots/tinyapp1.jpg?raw=true)
-!["screenshot description"](#)
-!["screenshot description"](#)
+!["What are you doing get TINY "](https://github.com/lukesiem/tinyApp/blob/master/screenshots/tinyapp3.jpg?raw=true)
+
 
 # Dependencies 
 
