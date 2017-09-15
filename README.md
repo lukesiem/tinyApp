@@ -1,10 +1,13 @@
 # TinyApp Project
 
-TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLS in the tradition of bit.ly, but instead, I've branded it with the word tiny because that's what I want things to be,TINY!
-It's time to get tiny. Why are you URLing so long? Make they tiny 
-use TinyApp and get TINY. Others are getting swole you're getting TINY. 
+TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLS in the tradition of bit.ly, but instead, I've branded it with the word tiny because that's what I want things to be,
+TINY!
+It's time to get TINY. 
+Why are you URLing so long? Make them TINY 
+use TinyApp and get TINY.
+Others are getting swole you're getting TINY. 
 you'll get your URLs so tiny they be Planck lengthing.
-They'll make friends with atoms, and boss around quarks.
+They'll make friends with atoms,and spit on quarks.
 GET TINY. 
 GET TinyAPP
 
