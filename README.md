@@ -13,7 +13,7 @@ GET TinyAPP
 
 ## Final Product
 
-!["screenshot description"](#)
+!["Logged in? Why not create some Tiny URLs"](https://github.com/lukesiem/tinyApp/blob/master/screenshots/tinyapp1.jpg?raw=true)
 !["screenshot description"](#)
 !["screenshot description"](#)
 
